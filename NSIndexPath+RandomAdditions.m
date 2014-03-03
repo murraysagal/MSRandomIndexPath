@@ -53,9 +53,9 @@
     
     do {
         
-        NSUInteger randomSection = arc4random_uniform(arrays.count);
+        NSInteger randomSection = arc4random_uniform(arrays.count);
         NSArray *array = arrays[ randomSection ];
-        NSUInteger randomItem = arc4random_uniform(array.count);
+        NSInteger randomItem = arc4random_uniform(array.count);
         randomIndexPath = [NSIndexPath indexPathForItem:randomItem inSection:randomSection];
         indexPathIsExcluded = [excludedIndexPaths containsObject:randomIndexPath];
         

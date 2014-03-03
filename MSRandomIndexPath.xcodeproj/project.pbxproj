@@ -21,6 +21,7 @@
 		72F2353418BDD16800DBF636 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F2351618BDD16800DBF636 /* UIKit.framework */; };
 		72F2353C18BDD16800DBF636 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72F2353A18BDD16800DBF636 /* InfoPlist.strings */; };
 		72F2353E18BDD16800DBF636 /* MSRandomIndexPathTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F2353D18BDD16800DBF636 /* MSRandomIndexPathTests.m */; };
+		72F2354918BDD19C00DBF636 /* NSIndexPath+RandomAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F2354818BDD19C00DBF636 /* NSIndexPath+RandomAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		72F2353918BDD16800DBF636 /* MSRandomIndexPathTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MSRandomIndexPathTests-Info.plist"; sourceTree = "<group>"; };
 		72F2353B18BDD16800DBF636 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		72F2353D18BDD16800DBF636 /* MSRandomIndexPathTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSRandomIndexPathTests.m; sourceTree = "<group>"; };
+		72F2354718BDD19C00DBF636 /* NSIndexPath+RandomAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSIndexPath+RandomAdditions.h"; sourceTree = "<group>"; };
+		72F2354818BDD19C00DBF636 /* NSIndexPath+RandomAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSIndexPath+RandomAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		72F2350618BDD16800DBF636 = {
 			isa = PBXGroup;
 			children = (
+				72F2354718BDD19C00DBF636 /* NSIndexPath+RandomAdditions.h */,
+				72F2354818BDD19C00DBF636 /* NSIndexPath+RandomAdditions.m */,
 				72F2351818BDD16800DBF636 /* MSRandomIndexPath */,
 				72F2353718BDD16800DBF636 /* MSRandomIndexPathTests */,
 				72F2351118BDD16800DBF636 /* Frameworks */,
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				72F2352918BDD16800DBF636 /* ViewController.m in Sources */,
+				72F2354918BDD19C00DBF636 /* NSIndexPath+RandomAdditions.m in Sources */,
 				72F2352318BDD16800DBF636 /* AppDelegate.m in Sources */,
 				72F2351F18BDD16800DBF636 /* main.m in Sources */,
 			);

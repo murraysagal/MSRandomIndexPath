@@ -37,6 +37,7 @@
 /* Begin PBXFileReference section */
 		72493C3918C4BEA700931DAE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; wrapsLines = 1; };
 		72493C3A18C4D9D400931DAE /* MSRandomIndexPath.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MSRandomIndexPath.podspec; sourceTree = "<group>"; };
+		72493C3B18C4DD8400931DAE /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		72F2350F18BDD16800DBF636 /* MSRandomIndexPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSRandomIndexPath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72F2351218BDD16800DBF636 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		72F2351418BDD16800DBF636 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -95,6 +96,7 @@
 				72F2351018BDD16800DBF636 /* Products */,
 				72493C3918C4BEA700931DAE /* README.md */,
 				72493C3A18C4D9D400931DAE /* MSRandomIndexPath.podspec */,
+				72493C3B18C4DD8400931DAE /* LICENSE */,
 			);
 			sourceTree = "<group>";
 		};

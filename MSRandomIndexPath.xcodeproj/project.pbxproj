@@ -35,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		72493C3918C4BEA700931DAE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; wrapsLines = 1; };
+		72493C3A18C4D9D400931DAE /* MSRandomIndexPath.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MSRandomIndexPath.podspec; sourceTree = "<group>"; };
 		72F2350F18BDD16800DBF636 /* MSRandomIndexPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSRandomIndexPath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72F2351218BDD16800DBF636 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		72F2351418BDD16800DBF636 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -91,6 +93,8 @@
 				72F2353718BDD16800DBF636 /* MSRandomIndexPathTests */,
 				72F2351118BDD16800DBF636 /* Frameworks */,
 				72F2351018BDD16800DBF636 /* Products */,
+				72493C3918C4BEA700931DAE /* README.md */,
+				72493C3A18C4D9D400931DAE /* MSRandomIndexPath.podspec */,
 			);
 			sourceTree = "<group>";
 		};
@@ -466,6 +470,7 @@
 				72F2354318BDD16800DBF636 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		72F2354418BDD16800DBF636 /* Build configuration list for PBXNativeTarget "MSRandomIndexPathTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +479,7 @@
 				72F2354618BDD16800DBF636 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

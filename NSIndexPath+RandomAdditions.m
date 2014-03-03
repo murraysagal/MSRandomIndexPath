@@ -35,6 +35,7 @@
     
     NSUInteger totalElementsInArrays = 0;
     for (NSArray *array in arrays) {
+        if (![array isKindOfClass:[NSArray class]]) return nil;
         if (array.count == 0) return nil;
         totalElementsInArrays += array.count;
     }

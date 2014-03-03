@@ -52,6 +52,13 @@
     XCTAssertNil(randomIndexPath, @"Fail: Arrays contains one empty array, randomIndexPath should be nil but was not.");
 }
 
+- (void)testArraysContainsNonArrayObject {
+    
+    self.arrays = @[ self.array0, @1, self.array2 ];
+    NSIndexPath *randomIndexPath = [NSIndexPath randomIndexPathInArrays:self.arrays excludingIndexPaths:nil];
+    XCTAssertNil(randomIndexPath, @"Fail: Arrays contains a non-array object, randomIndexPath should be nil but was not.");
+}
+
 - (void)testTooManyExcluded {
     
     NSIndexPath *indexPath0 = [NSIndexPath indexPathForItem:0 inSection:0];

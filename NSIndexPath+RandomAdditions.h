@@ -33,17 +33,18 @@
 // Returns a random index path valid for one of the arrays in arrays. The returned
 // index path will not be in the set of excludedIndexPaths.
 //
+// The order of the arrays in arrays is important. The first array is section 0, the
+// second array is section 1, and so on. The size of the arrays can vary but an array
+// cannot be empty.
+//
 // Returns nil if:
 //      - arrays is nil
 //      - any of the arrays in arrays is empty
+//      - any of the objects in arrays is not an array
 //      - the number of items in excludedIndexPaths is greater than or equal to the
 //          total number of elements for all the arrays in arrays
 //
-// arrays must be an array of arrays. If not you'll get an unrecognized selector error. 
-//
-// The order of the arrays in arrays is important. The first array is section 0, the
-// second array is section 1, and so on. The size of the arrays can vary but an array
-// cannot be empty. 
+// arrays must be an array of arrays. If not you'll get an unrecognized selector error.
 //
 // This method will take longer to return as the number of items in excludedIndexPaths
 // grows as a percent of the total number of elements for all the arrays in arrays.

@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name        = 'MSRandomIndexPath'
-  s.version     = '0.1.4'
+  s.version     = '0.1.5'
   s.license     = { :type => "MIT", :file => "LICENSE" }
   s.summary     = 'Returns a random index path valid for one of the arrays you specify.'
   s.homepage    = 'https://github.com/murraysagal/MSRandomIndexPath'
@@ -11,6 +11,5 @@ Pod::Spec.new do |s|
   s.source_files = 'NSIndexPath+RandomAdditions.{h,m}'
 
   s.ios.deployment_target = '4.3'
-  s.osx.deployment_target = '10.7'
 
 end

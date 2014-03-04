@@ -7,9 +7,9 @@
 
 Returns a random index path valid for one of the arrays in arrays. arrays can not be nil and must be an array of arrays. The returned index path will not be in the set of excludedIndexPaths. excludedIndexPaths can be nil.
 
- The order of the arrays in arrays is important. The first array is section 0, the second array is section 1, and so on. The size of the arrays can vary but an array cannot be empty.
+The order of the arrays in arrays is important. The first array is section 0, the second array is section 1, and so on. The size of the arrays can vary but an array cannot be empty.
 
- Returns nil if:
+Returns nil if:
 
 - arrays is nil
 - any of the arrays in arrays is empty
@@ -20,7 +20,7 @@ This method will take longer to return as the number of items in excludedIndexPa
 
 ## Installation
 
-MSRandomIndexPath uses arc4random_uniform which was available since Mac OS X 10.7 and iOS 4.3.
+MSRandomIndexPath uses arc4random_uniform which was available since iOS 4.3.
 
 
 ### Cocoapods
@@ -38,3 +38,11 @@ Alternatively you can directly add the two `NSIndexPath+RandomAdditions.*` sourc
 ## Tests
 
 The example Xcode project contains a suite of tests so you can use this method with confidence.
+
+If you copy the test file to your project you may need to configure the project so the test target will recognize the files.
+
+1. Select your project in the Project Navigator pane.
+1. Select your project in the Projects and Targets pane.
+1. You must be on the Info tab.
+1. In Configurations expand Debug and your project.
+1. In <yourProjectName>Tests select Pods from the popup.

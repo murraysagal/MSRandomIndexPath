@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name        = 'MSRandomIndexPath'
-  s.version     = '0.1.5'
+  s.version     = '0.1.6'
   s.license     = { :type => "MIT", :file => "LICENSE" }
   s.summary     = 'Returns a random index path valid for one of the arrays you specify.'
   s.homepage    = 'https://github.com/murraysagal/MSRandomIndexPath'

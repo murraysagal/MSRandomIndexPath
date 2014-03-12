@@ -59,6 +59,22 @@
     XCTAssertNil(randomIndexPath, @"Fail: Arrays contains a non-array object, randomIndexPath should be nil but was not.");
 }
 
+- (void)testExcludedNil {
+    
+    NSSet *excludedIndexPaths = nil;
+    NSArray *arrays = @[ self.array0 ];
+    NSIndexPath *randomIndexPath = [NSIndexPath randomIndexPathInArrays:arrays excludingIndexPaths:excludedIndexPaths];
+    XCTAssertNotNil(randomIndexPath, @"Fail: excludedIndexPaths is nil, randomIndexPath should not be nil but was.");
+}
+
+- (void)testExcludedEmpty {
+    
+    NSSet *excludedIndexPaths = [NSSet set];
+    NSArray *arrays = @[ self.array0 ];
+    NSIndexPath *randomIndexPath = [NSIndexPath randomIndexPathInArrays:arrays excludingIndexPaths:excludedIndexPaths];
+    XCTAssertNotNil(randomIndexPath, @"Fail: excludedIndexPaths is empty, randomIndexPath should not be nil but was.");
+}
+
 - (void)testTooManyExcluded {
     
     NSIndexPath *indexPath0 = [NSIndexPath indexPathForItem:0 inSection:0];

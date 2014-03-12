@@ -5,7 +5,7 @@
                      excludingIndexPaths:(NSSet *)excludedIndexPaths;
 ```
 
-Returns a random index path valid for one of the arrays in arrays. arrays can not be nil and must be an array of arrays. The returned index path will not be in the set of excludedIndexPaths. excludedIndexPaths can be nil.
+Returns a random index path valid for one of the arrays in `arrays`. `arrays` can't be nil and must be an array of arrays. The returned index path will not be in the set of excludedIndexPaths. excludedIndexPaths can be nil or empty.
 
 The order of the arrays in arrays is important. The first array is section 0, the second array is section 1, and so on. The size of the arrays can vary but an array cannot be empty.
 

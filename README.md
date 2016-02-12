@@ -23,7 +23,7 @@ This method will take longer to return as the number of items in `excludedIndexP
 MSRandomIndexPath uses arc4random_uniform which was available since iOS 4.3.
 
 
-### Cocoapods
+### CocoaPods
 
 1. Add a pod entry for MSRandomIndexPath to your Podfile: `pod 'MSRandomIndexPath'`.
 2. Install the pod(s) by running `pod install`.
